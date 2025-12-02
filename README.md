@@ -32,3 +32,15 @@ Python, Kafka, ClickHouse, Grafana, Materialized Views
 -Grafana dashboard for monitoring
 
 -220M rows read per hour benchmark
+
+▶️ How to Run
+
+-Start Kafka cluster
+
+-Wake ClickHouse Service
+
+-Run DB setup scripts
+
+-Start order producer,order confirmation,order completion,increase inventory scripts at a time.
+
+-Connect Grafana to ClickHouse
